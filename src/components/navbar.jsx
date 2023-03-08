@@ -4,11 +4,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Button } from 'react-bootstrap';
-import { useState } from 'react';
-import Product from './product';
 
-function CollapsibleExample() {
-    const [count,setCount]=useState(0);
+function CollapsibleExample({count}) {
   return (
     <div>
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
